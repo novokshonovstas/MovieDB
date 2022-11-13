@@ -159,13 +159,14 @@
             text-transform: uppercase;
             span {
                 display: block;
+                
                 position: absolute;
                 left: -30px;
                 top: 50%;
                 transform: translateY(-50%);
                 width: 20px;
                 height: 20px;
-                background: url('../icons/Star.svg') center (center / cover) no-repeat;
+                background: url('../icons/favorite.svg') center (center / cover) no-repeat;
             }
             &:before {
                 content: '';
@@ -176,6 +177,8 @@
                 height: 2px;
                 background-color: #FFD500;
             }
+          
+            
             &:hover {
                 .delete {
                     content: '';
